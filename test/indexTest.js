@@ -9,7 +9,7 @@ describe('index.js', () => {
   });
 
   describe('welcomeMessage', () => {
-    it('contains "Welcome to Flatbook, "', () => {
+    it('contains "Welcome to Flatbook, "', ('Ruth Naserian') => {
       expect(welcomeMessage).to.have.string('Welcome to Flatbook, ');
     });
 
